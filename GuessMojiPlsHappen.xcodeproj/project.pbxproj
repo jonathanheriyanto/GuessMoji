@@ -11,14 +11,25 @@
 		386C61D429CEA84A0018BF7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386C61D329CEA84A0018BF7B /* ContentView.swift */; };
 		386C61D629CEA84B0018BF7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386C61D529CEA84B0018BF7B /* Assets.xcassets */; };
 		386C61D929CEA84B0018BF7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386C61D829CEA84B0018BF7B /* Preview Assets.xcassets */; };
+		386C61E029CEA8E90018BF7B /* MultipeerConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386C61DF29CEA8E90018BF7B /* MultipeerConnection.swift */; };
+		386C61E229CEA9A70018BF7B /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386C61E129CEA9A70018BF7B /* Emoji.swift */; };
+		386C61E629CEB0A40018BF7B /* LobbyDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386C61E529CEB0A40018BF7B /* LobbyDisplay.swift */; };
+		386C61E829CEC4EF0018BF7B /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386C61E729CEC4EF0018BF7B /* ButtonStyle.swift */; };
+		38E64A5529CF2A52002FB1D4 /* GameDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E64A5429CF2A52002FB1D4 /* GameDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		386C61CE29CEA84A0018BF7B /* GuessMojiPlsHappen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessMojiPlsHappen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3835433B29D056060095E693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		386C61CE29CEA84A0018BF7B /* GuessMoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessMoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		386C61D129CEA84A0018BF7B /* GuessMojiPlsHappenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessMojiPlsHappenApp.swift; sourceTree = "<group>"; };
 		386C61D329CEA84A0018BF7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		386C61D529CEA84B0018BF7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		386C61D829CEA84B0018BF7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		386C61DF29CEA8E90018BF7B /* MultipeerConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerConnection.swift; sourceTree = "<group>"; };
+		386C61E129CEA9A70018BF7B /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		386C61E529CEB0A40018BF7B /* LobbyDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyDisplay.swift; sourceTree = "<group>"; };
+		386C61E729CEC4EF0018BF7B /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		38E64A5429CF2A52002FB1D4 /* GameDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +54,7 @@
 		386C61CF29CEA84A0018BF7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				386C61CE29CEA84A0018BF7B /* GuessMojiPlsHappen.app */,
+				386C61CE29CEA84A0018BF7B /* GuessMoji.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +62,14 @@
 		386C61D029CEA84A0018BF7B /* GuessMojiPlsHappen */ = {
 			isa = PBXGroup;
 			children = (
+				3835433B29D056060095E693 /* Info.plist */,
 				386C61D129CEA84A0018BF7B /* GuessMojiPlsHappenApp.swift */,
+				386C61DF29CEA8E90018BF7B /* MultipeerConnection.swift */,
+				386C61E129CEA9A70018BF7B /* Emoji.swift */,
 				386C61D329CEA84A0018BF7B /* ContentView.swift */,
+				386C61E529CEB0A40018BF7B /* LobbyDisplay.swift */,
+				38E64A5429CF2A52002FB1D4 /* GameDisplay.swift */,
+				386C61E729CEC4EF0018BF7B /* ButtonStyle.swift */,
 				386C61D529CEA84B0018BF7B /* Assets.xcassets */,
 				386C61D729CEA84B0018BF7B /* Preview Content */,
 			);
@@ -70,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		386C61CD29CEA84A0018BF7B /* GuessMojiPlsHappen */ = {
+		386C61CD29CEA84A0018BF7B /* GuessMoji */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 386C61DC29CEA84B0018BF7B /* Build configuration list for PBXNativeTarget "GuessMojiPlsHappen" */;
+			buildConfigurationList = 386C61DC29CEA84B0018BF7B /* Build configuration list for PBXNativeTarget "GuessMoji" */;
 			buildPhases = (
 				386C61CA29CEA84A0018BF7B /* Sources */,
 				386C61CB29CEA84A0018BF7B /* Frameworks */,
@@ -82,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = GuessMojiPlsHappen;
+			name = GuessMoji;
 			productName = GuessMojiPlsHappen;
-			productReference = 386C61CE29CEA84A0018BF7B /* GuessMojiPlsHappen.app */;
+			productReference = 386C61CE29CEA84A0018BF7B /* GuessMoji.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				386C61CD29CEA84A0018BF7B /* GuessMojiPlsHappen */,
+				386C61CD29CEA84A0018BF7B /* GuessMoji */,
 			);
 		};
 /* End PBXProject section */
@@ -137,7 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386C61E629CEB0A40018BF7B /* LobbyDisplay.swift in Sources */,
 				386C61D429CEA84A0018BF7B /* ContentView.swift in Sources */,
+				386C61E029CEA8E90018BF7B /* MultipeerConnection.swift in Sources */,
+				386C61E829CEC4EF0018BF7B /* ButtonStyle.swift in Sources */,
+				386C61E229CEA9A70018BF7B /* Emoji.swift in Sources */,
+				38E64A5529CF2A52002FB1D4 /* GameDisplay.swift in Sources */,
 				386C61D229CEA84A0018BF7B /* GuessMojiPlsHappenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,8 +289,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GuessMojiPlsHappen/Preview Content\"";
+				DEVELOPMENT_TEAM = GT493Z58L2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuessMojiPlsHappen/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "GuessMoji needs to use your phone’s data to discover devices nearby";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,8 +320,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GuessMojiPlsHappen/Preview Content\"";
+				DEVELOPMENT_TEAM = GT493Z58L2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuessMojiPlsHappen/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "GuessMoji needs to use your phone’s data to discover devices nearby";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -327,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		386C61DC29CEA84B0018BF7B /* Build configuration list for PBXNativeTarget "GuessMojiPlsHappen" */ = {
+		386C61DC29CEA84B0018BF7B /* Build configuration list for PBXNativeTarget "GuessMoji" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				386C61DD29CEA84B0018BF7B /* Debug */,

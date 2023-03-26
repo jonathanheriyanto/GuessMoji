@@ -11,7 +11,8 @@ import SwiftUI
 struct GuessMojiPlsHappenApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let multipeerConnection = MultipeerConnection()
+            ContentView().environmentObject(multipeerConnection)
         }
     }
 }
